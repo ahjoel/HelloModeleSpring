@@ -37,10 +37,10 @@ public class RessourceHumainController {
     return "voyagess";
   }
 
-  @GetMapping("/reservation")
+  @GetMapping("/reservationn")
   public String formulaireReservation(Model model) {
 
-    return "reservation";
+    return "reservationn";
   }
 
 }
